@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		328A262223C688750055E121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A262123C688750055E121 /* AppDelegate.swift */; };
 		328A262423C688750055E121 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A262323C688750055E121 /* SceneDelegate.swift */; };
-		328A262623C688750055E121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A262523C688750055E121 /* ViewController.swift */; };
 		328A262923C688750055E121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328A262723C688750055E121 /* Main.storyboard */; };
 		328A262B23C688770055E121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328A262A23C688770055E121 /* Assets.xcassets */; };
 		328A262E23C688770055E121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328A262C23C688770055E121 /* LaunchScreen.storyboard */; };
 		328A263923C688780055E121 /* TwitterMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A263823C688780055E121 /* TwitterMockTests.swift */; };
 		328A264423C688780055E121 /* TwitterMockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A264323C688780055E121 /* TwitterMockUITests.swift */; };
+		328A265523C79BBE0055E121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328A265423C79BBE0055E121 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		328A261E23C688750055E121 /* TwitterMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		328A261E23C688750055E121 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		328A262123C688750055E121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		328A262323C688750055E121 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		328A262523C688750055E121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		328A262823C688750055E121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		328A262A23C688770055E121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		328A262D23C688770055E121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		328A263F23C688780055E121 /* TwitterMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		328A264323C688780055E121 /* TwitterMockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMockUITests.swift; sourceTree = "<group>"; };
 		328A264523C688780055E121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328A265323C71E890055E121 /* Twitter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Twitter.entitlements; sourceTree = "<group>"; };
+		328A265423C79BBE0055E121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		328A265623C7A5C40055E121 /* NFCTagReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFCTagReader.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,7 @@
 		328A261F23C688750055E121 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				328A261E23C688750055E121 /* TwitterMock.app */,
+				328A261E23C688750055E121 /* Twitter.app */,
 				328A263423C688780055E121 /* TwitterMockTests.xctest */,
 				328A263F23C688780055E121 /* TwitterMockUITests.xctest */,
 			);
@@ -100,12 +102,14 @@
 			isa = PBXGroup;
 			children = (
 				328A262123C688750055E121 /* AppDelegate.swift */,
-				328A262323C688750055E121 /* SceneDelegate.swift */,
-				328A262523C688750055E121 /* ViewController.swift */,
-				328A262723C688750055E121 /* Main.storyboard */,
 				328A262A23C688770055E121 /* Assets.xcassets */,
-				328A262C23C688770055E121 /* LaunchScreen.storyboard */,
 				328A262F23C688770055E121 /* Info.plist */,
+				328A262C23C688770055E121 /* LaunchScreen.storyboard */,
+				328A262723C688750055E121 /* Main.storyboard */,
+				328A262323C688750055E121 /* SceneDelegate.swift */,
+				328A265323C71E890055E121 /* Twitter.entitlements */,
+				328A265423C79BBE0055E121 /* ViewController.swift */,
+				328A265623C7A5C40055E121 /* NFCTagReader.entitlements */,
 			);
 			path = TwitterMock;
 			sourceTree = "<group>";
@@ -145,7 +149,7 @@
 			);
 			name = TwitterMock;
 			productName = TwitterMock;
-			productReference = 328A261E23C688750055E121 /* TwitterMock.app */;
+			productReference = 328A261E23C688750055E121 /* Twitter.app */;
 			productType = "com.apple.product-type.application";
 		};
 		328A263323C688780055E121 /* TwitterMockTests */ = {
@@ -259,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				328A262623C688750055E121 /* ViewController.swift in Sources */,
+				328A265523C79BBE0055E121 /* ViewController.swift in Sources */,
 				328A262223C688750055E121 /* AppDelegate.swift in Sources */,
 				328A262423C688750055E121 /* SceneDelegate.swift in Sources */,
 			);
@@ -434,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TwitterMock/Twitter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YG77X724H;
 				INFOPLIST_FILE = TwitterMock/Info.plist;
@@ -442,9 +447,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.next.TwitterMock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Twitter;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TwitterMock/Twitter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9YG77X724H;
 				INFOPLIST_FILE = TwitterMock/Info.plist;
@@ -460,9 +466,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.next.TwitterMock;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Twitter;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
